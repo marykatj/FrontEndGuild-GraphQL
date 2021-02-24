@@ -94,7 +94,7 @@ Here we are using GraphQL and Apollo
 + This code should look familiar, this is exactly what we plugged into our playground.  
 + This here showcases how easy it is to use GraphQL - we KNOW this works!  We were able to test this, and can test other queries and know exactly what data we will receive. 
 
-### <GetDrinks />
+### GetDrinks Component
 
 + Here we can take advantage of a `useQuery` hook provided by `apollo-client` - we pass the `LOAD_DRINKS` into the `useQuery` hook
 + Something nice about query is the object we receive is this nicely organized with 
@@ -107,7 +107,7 @@ Here we are using GraphQL and Apollo
 + This mutation looks mostly similar to the sandbox from earlier
 
 
-### <Form />
+### Form Component
 
 + Here we take advantage of the `useMutation` hook, following a somewhat similar pattern. The braces for the hook are slightly different than the query syntax.
 + This basic form shows how a `CREATE` mutation works
