@@ -1,4 +1,4 @@
-# Get Started
+# Getting Started
 
 + clone this repo locally
 + `npm install`
@@ -97,7 +97,8 @@ Here we are using GraphQL and Apollo
 ### <GetDrinks />
 
 + Here we can take advantage of a `useQuery` hook provided by `apollo-client` - we pass the `LOAD_DRINKS` into the `useQuery` hook
-+ Something nice about query is the object we receive is this nicely organized with `{ error, loading and data }`. This helps us code defensively, accounting for loading and errors.
++ Something nice about query is the object we receive is this nicely organized with 
+`{ error, loading and data }`. This helps us code defensively, accounting for loading and errors.
 + This component will showcase our `GET`, by rendering a list of all drinks
 
 
