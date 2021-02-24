@@ -1,3 +1,45 @@
+# Get Started
+
++ clone this repo locally
++ `npm install`
++ You need to be on node 10: `nvm use 10`
++ cd into the `server` directory, and run `node server.js`
++ In another terminal window, in the main `FrontEndGuild-GraphQL` directory, run `npm start`
++ If anything fails, just double check you're on the correct version of node
++ Visit `http://localhost:4000/graphql` to test your queries and mutations.
+
+# Quick notes
+
+Any changes you make to the Schema (Types, Root Query or Mutation) will require the server to be restarted.
+Here are some sample queries and mutations to get started:
+
+`query {
+	getAllDrinks {
+		name
+  }
+}`
+
+`query {
+	getDrinkById(id:1) {
+		name
+		instructions
+		tags
+  }
+}`
+
+`mutation {
+	createDrink(
+		name: “Whiskey Sour”
+		tags: [“grandma’s fav”]
+		ingredients: [“2 oz bourbon”, “¾ oz lemon”, “¾ oz simple syrup”]
+    instructions: “shake well”	
+  ) {
+    name
+  }
+}`
+
+After running the `mutation`, you should be able to see your drink added to the list by running the `getAllDrinks` query again.
+
 # Front End Guild GraphQL Sample
 
 Here you will find a basic working example of GraphQL
