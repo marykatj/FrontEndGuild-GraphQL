@@ -5,7 +5,7 @@ const {
     GraphQLString,
     GraphQLInt
 } = require("graphql");
-const data = require("../../MOCK_DATA.json");
+const data = require("../MOCK_DATA.json");
 const DrinkType = require("./typeDefs/DrinkType");
 //const axios = require('axios');
 

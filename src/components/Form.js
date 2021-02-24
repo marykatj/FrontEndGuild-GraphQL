@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { useMutation } from '@apollo/client';
-import { CREATE_DRINK_MUTATION } from '../GraphQL/Mutations';
+import { CREATE_DRINK_MUTATION } from '../graphQL/Mutations';
 
 const Form = () => {
     const [name, setName] = useState("");

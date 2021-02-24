@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useQuery } from '@apollo/client';
-import { LOAD_DRINKS } from '../GraphQL/Queries';
+import { LOAD_DRINKS } from '../graphQL/Queries';
 
 const GetDrinks = () => {
     const [drinks, setDrinks] = useState([]);
