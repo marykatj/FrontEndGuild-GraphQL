@@ -76,11 +76,11 @@ Express & GraphQL
 #### Mutation
 
 + Fields are functions that will be our `CREATE`, `UPDATE` and `DELETE`
-+ Here our resolve, acts as a `POST`, but in our case it's just `data.push( )`
++ Here our resolve, acts as a `POST`, but in our case it's just `data.push()`
 
 ## CLIENT
 
-Here we are using GraphQL and Apollo
+GraphQL and Apollo
 
 ### App.js
 
