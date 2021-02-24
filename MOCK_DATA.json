@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "name": "Mojito",
+    "tags": ["Summer"],
+    "ingredients": ["2 oz rum", "15 leaves mint", "2 oz lime", "1 oz simple syrup", "4 oz club soda"],
+    "instructions": "Muddle the mint and the lime.  Then add all ingredients to a shaker, along with ice.  Shake well."
+}, {
+    "id": 2,
+    "name": "Bees Nees",
+    "tags": [],
+    "ingredients": [ "2 oz gin", "3/4 oz lemon", "3/4 oz honey syrup"],
+    "instructions": "Add all ingredients to a shaker, along with ice.  Shake well."
+}, {
+    "id": 3,
+    "name": "Caipirinha",
+    "tags": ["Holiday"],
+    "ingredients": [ "2 oz cachaca rum", "1 lime", "1 tbsp brown sugar"],
+    "instructions": "Cut the ends off the lime. Cut in half, and remove the pith.  Cut each half into four pieces.  Place 4 peices in a glass, and muddle the other 4 pieces with the brown sugar.  Then add the rum and muddled mixture to a shaker, along with ice.  Shake well."
+}]
